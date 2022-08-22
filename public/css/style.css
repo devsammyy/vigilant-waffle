@@ -1,4 +1,5 @@
-body {
+body,
+div {
   background-color: #000;
   color: red;
 }
