@@ -57,7 +57,7 @@ router.post("/submit", (req, res, next) => {
 
 router.post("/sadsec", (req, res) => {
   const { enter } = req.body;
-  const answer = "You are 1337";
+  const answer = "You Are 1337";
   if (enter !== answer) {
     console.log("I guess you are missing the header");
   } else {
