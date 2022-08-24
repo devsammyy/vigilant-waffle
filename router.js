@@ -60,6 +60,7 @@ router.post("/sadsec", (req, res) => {
   const answer = "You Are 1337";
   if (enter !== answer) {
     console.log("I guess you are missing the header");
+    res.redirect("/");
   } else {
     res.render("./page3", { captcha });
   }
